@@ -33,4 +33,4 @@
         </div>
     </div>
 <?php endif; ?>
-<?php /**PATH C:\laragon\www\rocket-lms\resources\views/web/default/includes/advertise_modal/index.blade.php ENDPATH**/ ?>
+<?php /**PATH C:\laragon\www\rocket-lms\resources\views/web/default/includes/advertise_modal/home.blade.php ENDPATH**/ ?>
