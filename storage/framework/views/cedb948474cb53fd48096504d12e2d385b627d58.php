@@ -27,28 +27,28 @@
                         <?php echo e(csrf_field()); ?>
 
 
-                        
+
                         <section>
                             <h2 class="section-title after-line"><?php echo e(trans('public.basic_information')); ?></h2>
 
                             <?php echo $__env->make('admin.forms.create.includes.basic_information', \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?>
                         </section>
 
-                        
+
                         <section class="mt-3">
                             <h2 class="section-title after-line"><?php echo e(trans('update.welcome_message')); ?></h2>
 
                             <?php echo $__env->make('admin.forms.create.includes.welcome_message', \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?>
                         </section>
 
-                        
+
                         <section class="mt-3">
                             <h2 class="section-title after-line"><?php echo e(trans('update.tank_you_message')); ?></h2>
 
                             <?php echo $__env->make('admin.forms.create.includes.tank_you_message', \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?>
                         </section>
 
-                        
+
                         <section class="mt-3">
                             <h2 class="section-title after-line"><?php echo e(trans('update.form_fields')); ?></h2>
 
@@ -92,4 +92,4 @@
     <script src="/assets/default/js/admin/create_forms.min.js"></script>
 <?php $__env->stopPush(); ?>
 
-<?php echo $__env->make('admin.layouts.app', \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?><?php /**PATH C:\laragon\www\rocket-lms\resources\views/admin/forms/create/index.blade.php ENDPATH**/ ?>
+<?php echo $__env->make('admin.layouts.app', \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?><?php /**PATH C:\laragon\www\rocket-lms\resources\views/admin/forms/create/home.blade.php ENDPATH**/ ?>
